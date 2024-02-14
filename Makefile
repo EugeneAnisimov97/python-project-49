@@ -12,11 +12,14 @@ publish:
 
 # Установка пакета в интерпретатор python на локальном компе (мой)
 package-install:
-	python3 -m pip install --user dist/*.whl --force-reinstall
+	python3 -m pip install dist/*.whl --force-reinstall
 
 # для запуска через make
 brain-games:
 	poetry run brain-games
+
+brain-even:
+	poetry run brain-even
 
 make lint:
 	poetry run flake8 brain_games
