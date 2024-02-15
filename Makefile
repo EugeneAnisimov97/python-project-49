@@ -14,12 +14,15 @@ publish:
 package-install:
 	python3 -m pip install dist/*.whl --force-reinstall
 
-# для запуска через make
+# для запуска игры через make
 brain-games:
 	poetry run brain-games
 
 brain-even:
 	poetry run brain-even
+
+brain-calc:
+	poetry run brain-calc
 
 make lint:
 	poetry run flake8 brain_games
