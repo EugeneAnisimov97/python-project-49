@@ -21,7 +21,7 @@ def main():
             case 1:
                 sum = number_first + number_second
                 print(f'Question: {number_first} + {number_second}')
-                user_answer = int(prompt.string('Your answer: '))
+                user_answer = prompt.integer('Your answer: ')
                 if sum == user_answer:
                     print('Correct!')
                     point += 1
@@ -31,7 +31,7 @@ def main():
             case 2:
                 difference = number_first - number_second
                 print(f'Question: {number_first} - {number_second}')
-                user_answer = int(prompt.string('Your answer: '))
+                user_answer = prompt.integer('Your answer: ')
                 if difference == user_answer:
                     print('Correct!')
                     point += 1
@@ -41,7 +41,7 @@ def main():
             case 3:
                 multiplication = number_first * number_second
                 print(f'Question: {number_first} * {number_second}')
-                user_answer = int(prompt.string('Your answer: '))
+                user_answer = prompt.integer('Your answer: ')
                 if multiplication == user_answer:
                     print('Correct!')
                     point += 1

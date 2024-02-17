@@ -26,7 +26,7 @@ def main():
         number_first = random.randint(1, 20)
         number_second = random.randint(1, 20)
         print(f'Question: {number_first} {number_second}')
-        user_answer = int(prompt.string('Your answer: '))
+        user_answer = prompt.integer('Your answer: ')
         if gcd(number_first, number_second) == user_answer:
             print('Correct!')
             point += 1
@@ -34,4 +34,4 @@ def main():
             print(f"'{user_answer}' in wrong answer ;(. Corrent answer was '{gcd(number_first, number_second)}'\nLet's try again, {name}!")  # noqa:E501
             break
     if point == 3:
-            print(f'Congratulation, {name}!')
+        print(f'Congratulation, {name}!')
