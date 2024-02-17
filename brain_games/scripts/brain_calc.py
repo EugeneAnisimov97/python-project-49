@@ -13,7 +13,7 @@ def greet():
 def main():
     name = greet()
     point = 0
-    for i in range(3):
+    for _ in range(3):
         number_first = random.randint(1, 10)
         number_second = random.randint(1, 10)
         count = random.randint(1, 3)
