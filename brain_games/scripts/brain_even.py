@@ -28,5 +28,5 @@ def main():
                 correct_answer = 'no'
                 print(f"'{user_answer}' in wrong answer ;(. Corrent answer was '{correct_answer}'")  # noqa:E501
             break
-    if point == 3:
-        print(f'Congratulation, {name}!')
+        if point == 3:
+            print(f'Congratulation, {name}!')
