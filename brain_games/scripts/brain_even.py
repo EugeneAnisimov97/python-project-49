@@ -23,10 +23,10 @@ def main():
         else:
             if number % 2 == 0:
                 correct_answer = 'yes'
-                print(f"'{user_answer}' in wrong answer ;(. Corrent answer was '{correct_answer}'")  # noqa:E501
+                print(f"'{user_answer}' in wrong answer ;(. Corrent answer was '{correct_answer}'.\nLet's try again, {name}!")  # noqa:E501
             elif number % 2 != 0:
                 correct_answer = 'no'
-                print(f"'{user_answer}' in wrong answer ;(. Corrent answer was '{correct_answer}'")  # noqa:E501
+                print(f"'{user_answer}' in wrong answer ;(. Corrent answer was '{correct_answer}'.\nLet's try again, {name}!")  # noqa:E501
             break
         if point == 3:
             print(f'Congratulations, {name}!')
