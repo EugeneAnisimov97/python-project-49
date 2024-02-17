@@ -44,4 +44,4 @@ def main():
             print(f"'{user_answer}' in wrong answer ;(. Corrent answer was '{correct_number}'.\nLet's try again, {name}!")  # noqa:E501
             break
     if point == 3:
-        print(f'Congratulation, {name}!')
+        print(f'Congratulations, {name}!')

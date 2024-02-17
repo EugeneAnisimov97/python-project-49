@@ -10,13 +10,13 @@ def greet():
     return name
 
 
-def gcd(m, n):
-    while m != n:
-        if m > n:
-            m = m - n
+def gcd(number_first, number_second):
+    while number_first != number_second:
+        if number_first > number_second:
+            number_first = number_first - number_second
         else:
-            n = n - m
-    return n
+            number_second = number_second - number_first
+    return number_second
 
 
 def main():
@@ -34,4 +34,4 @@ def main():
             print(f"'{user_answer}' in wrong answer ;(. Corrent answer was '{gcd(number_first, number_second)}'.\nLet's try again, {name}!")  # noqa:E501
             break
     if point == 3:
-        print(f'Congratulation, {name}!')
+        print(f'Congratulations, {name}!')
