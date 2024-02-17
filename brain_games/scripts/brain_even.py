@@ -6,7 +6,7 @@ from brain_games.cli import welcome_user
 def greet():
     print('Welcome to the Brain Games!')
     name = welcome_user()
-    print('What is the result of the expression?')
+    print('"yes" if the number is even, otherwise answer "no".')
     return name
 
 
