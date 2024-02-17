@@ -31,7 +31,7 @@ def main():
             print('Correct!')
             point += 1
         else:
-            print(f"'{user_answer}' in wrong answer ;(. Corrent answer was '{gcd(number_first, number_second)}'\nLet's try again, {name}!")  # noqa:E501
+            print(f"'{user_answer}' in wrong answer ;(. Corrent answer was '{gcd(number_first, number_second)}'.\nLet's try again, {name}!")  # noqa:E501
             break
     if point == 3:
         print(f'Congratulation, {name}!')

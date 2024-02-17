@@ -6,7 +6,7 @@ from brain_games.cli import welcome_user
 def greet():
     print('Welcome to the Brain Games!')
     name = welcome_user()
-    print('Find the greatest common divisor of given numbers.')
+    print('What number is missing in the progression?')
     return name
 
 
@@ -41,7 +41,7 @@ def main():
             print('Correct!')
             point += 1
         else:
-            print(f"'{user_answer}' in wrong answer ;(. Corrent answer was '{correct_number}'\nLet's try again, {name}!")  # noqa:E501
+            print(f"'{user_answer}' in wrong answer ;(. Corrent answer was '{correct_number}'.\nLet's try again, {name}!")  # noqa:E501
             break
     if point == 3:
         print(f'Congratulation, {name}!')

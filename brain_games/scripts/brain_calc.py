@@ -26,7 +26,7 @@ def main():
                     print('Correct!')
                     point += 1
                 else:
-                    print(f"'{user_answer}' in wrong answer ;(. Corrent answer was '{sum}'\nLet's try again, {name}!")  # noqa:E501
+                    print(f"'{user_answer}' in wrong answer ;(. Corrent answer was '{sum}'.\nLet's try again, {name}!")  # noqa:E501
                     break
             case 2:
                 difference = number_first - number_second
@@ -36,7 +36,7 @@ def main():
                     print('Correct!')
                     point += 1
                 else:
-                    print(f"'{user_answer}' in wrong answer ;(. Corrent answer was '{difference}'\nLet's try again, {name}!")  # noqa:E501
+                    print(f"'{user_answer}' in wrong answer ;(. Corrent answer was '{difference}'.\nLet's try again, {name}!")  # noqa:E501
                     break
             case 3:
                 multiplication = number_first * number_second
@@ -46,7 +46,7 @@ def main():
                     print('Correct!')
                     point += 1
                 else:
-                    print(f"'{user_answer}' in wrong answer ;(. Corrent answer was '{multiplication}'\nLet's try again, {name}!")  # noqa:E501
+                    print(f"'{user_answer}' in wrong answer ;(. Corrent answer was '{multiplication}'.\nLet's try again, {name}!")  # noqa:E501
                     break
         if point == 3:
             print(f'Congratulation, {name}!')
