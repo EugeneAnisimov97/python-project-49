@@ -15,23 +15,3 @@ def answer_question():
     else:
         answer = 'no'
     return number, answer
-    
-    
-    
-    
-    
-    
-    # print(f'Question: {number}')
-    # user_answer =     user_answer = prompt.string('Your answer: ')
-
-    # if number % 2 == 0 and user_answer == 'yes' or number % 2 != 0 and user_answer == 'no':    # noqa:E501
-    #     print('Correct!')
-    # else:
-    #     if number % 2 == 0:
-    #         correct_answer = 'yes'
-    #         print(f"'{user_answer}' in wrong answer ;(. Corrent answer was '{correct_answer}'.\nLet's try again, {name}!")  # noqa:E501
-    #     elif number % 2 != 0:
-    #         correct_answer = 'no'
-    #         print(f"'{user_answer}' in wrong answer ;(. Corrent answer was '{correct_answer}'.\nLet's try again, {name}!")  # noqa:E501
-    # if point == 3:
-    #     print(f'Congratulations, {name}!')
