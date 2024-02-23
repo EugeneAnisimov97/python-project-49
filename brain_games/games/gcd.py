@@ -16,4 +16,4 @@ def gcd(number_first, number_second):
 def answer_question():
     number_first = random.randint(1, 20)
     number_second = random.randint(1, 20)
-    return f'{number_first} {number_second}', str(gcd(number_first, number_second))
+    return f'{number_first} {number_second}', str(gcd(number_first, number_second))  # noqa:E501
