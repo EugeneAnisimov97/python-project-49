@@ -8,7 +8,7 @@ def start_game(game):
     print(game.ABOUT_GAME)
     point = 0
     for _ in range(3):
-        question, correct_answer = game.answer_question()
+        question, correct_answer = game.get_answer_question()
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')
         if user_answer == correct_answer:

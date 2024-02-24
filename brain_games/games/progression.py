@@ -16,14 +16,13 @@ def make_string_progression():
     return progression
 
 
-def answer_question():
+def get_answer_question():
     invisible = '..'
     string_progression = ''
     progression = make_string_progression()
     index = random.randrange(0, 9)
     correct_number = progression[index]
     progression[index] = invisible
-    for el in progression:
-        string_progression += str(el)
-        string_progression += ' '
-    return string_progression, str(correct_number)
+    string_progression = [str(sl) for sl in progression]
+    result_progression = ' '.join(string_progression)
+    return result_progression, str(correct_number)
