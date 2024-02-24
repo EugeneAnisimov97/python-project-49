@@ -5,6 +5,7 @@ ABOUT_GAME = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def is_even(number):
+    '''Определяем чётное ли значение number'''
     return number % 2 == 0
 
 

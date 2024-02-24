@@ -5,6 +5,7 @@ ABOUT_GAME = 'What is the result of the expression?'
 
 
 def expression(number_first, number_second, sl_for_expression):
+    '''вычисляем ответ выражения'''
     if sl_for_expression == '+':
         answer = number_first + number_second
         return answer

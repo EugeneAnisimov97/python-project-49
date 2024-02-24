@@ -5,6 +5,7 @@ ABOUT_GAME = 'What number is missing in the progression?'
 
 
 def make_string_progression():
+    '''создаем массив с шагом step и сортируем его по возрастанию'''
     progression = []
     number = random.randrange(0, 100)
     step = random.randrange(1, 10)
