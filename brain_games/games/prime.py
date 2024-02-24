@@ -16,7 +16,7 @@ def is_prime(number):
 
 
 def get_answer_question():
-    number = random.randint(0, 10)
+    number = random.randint(0, 99)
     if is_prime(number):
         answer = 'yes'
     else:
