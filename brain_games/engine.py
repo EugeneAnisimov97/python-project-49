@@ -3,6 +3,7 @@ from brain_games.cli import welcome_user
 
 
 def start_game(game):
+    '''Запускает игру описанную в модуле game'''
     print('Welcome to the Brain Games!')
     name = welcome_user()
     print(game.ABOUT_GAME)

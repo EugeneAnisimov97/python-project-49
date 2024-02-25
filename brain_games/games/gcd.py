@@ -4,7 +4,8 @@ import random
 ABOUT_GAME = 'Find the greatest common divisor of given numbers.'
 
 
-def is_nod(number_first, number_second):
+def search_gcd(number_first, number_second):
+    '''поиск наибольшего общего делителя'''
     while number_first != number_second:
         if number_first > number_second:
             number_first = number_first - number_second
@@ -14,6 +15,7 @@ def is_nod(number_first, number_second):
 
 
 def get_answer_question():
+    '''Возвращаем значение для вопроса и ответ на вопрос'''
     number_first = random.randint(1, 20)
     number_second = random.randint(1, 20)
-    return f'{number_first} {number_second}', str(is_nod(number_first, number_second))  # noqa:E501
+    return f'{number_first} {number_second}', str(search_gcd(number_first, number_second))  # noqa:E501
