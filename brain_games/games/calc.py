@@ -22,4 +22,3 @@ def get_answer_question():
     expression = ['-', '+', '*']
     expression = random.choice(expression)
     return f'{number_first} {expression} {number_second}', str(count_expression(number_first, number_second, expression))  # noqa:E501
-
