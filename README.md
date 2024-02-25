@@ -3,9 +3,10 @@
 <a href="https://codeclimate.com/github/EugeneAnisimov97/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/8f62247e011b5d948ddd/maintainability" /></a>
 
 used in the project:
-**prompt**<a href="https://pypi.org/project/prompt/"><img src="https://pypi.org/project/prompt/" /></a>
 
-**used random**<a href="https://docs.python.org/3/library/random.html"><img src="https://docs.python.org/3/library/random.html" /></a>
+[**prompt**](https://pypi.org/project/prompt/)
+
+[**random**](https://docs.python.org/3/library/random.html)
 
 <h1 align="center">brain-even<a href="https://asciinema.org/a/ffNE0MFoImME8LQ2iOgUtE09k" target="_blank"><img src="https://asciinema.org/a/ffNE0MFoImME8LQ2iOgUtE09k.svg" /></a></h1>
 
