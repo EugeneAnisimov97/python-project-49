@@ -12,7 +12,7 @@ def criating_progression():
     while len(progression) < 10:
         number += step
         progression.append(number)
-    return progression.sort()
+    return progression
 
 
 def get_answer_question():
