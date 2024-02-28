@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "launches five games: is even even pure, calculator, gcd search, missing pure in progression, is the number prime"
 authors = ["Eugene Anisimov <zero0061@mail.ru>"]
 readme = "README.md"
 packages = [

@@ -7,7 +7,6 @@ def start_game(game):
     print('Welcome to the Brain Games!')
     name = welcome_user()
     print(game.ABOUT_GAME)
-    point = 0
     for _ in range(3):
         question, correct_answer = game.get_answer_question()
         print(f'Question: {question}')
@@ -17,6 +16,5 @@ def start_game(game):
             point += 1
         else:
             print(f"'{user_answer}' in wrong answer ;(. Corrent answer was '{correct_answer}'.\nLet's try again, {name}!")  # noqa:E501
-            break
-        if point == 3:
-            print(f'Congratulations, {name}!')
+            return
+    print(f'Congratulations, {name}!')
