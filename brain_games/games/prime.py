@@ -5,7 +5,7 @@ ABOUT_GAME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
-    '''Определяем простое ли значение number'''
+    '''Определение простое ли значение number'''
     k = 0
     if number <= 1:
         return False
@@ -16,7 +16,7 @@ def is_prime(number):
 
 
 def get_answer_question():
-    '''Возвращаем значение для вопроса и ответ на вопрос'''
+    '''Возврат значения для ответа на вопрос'''
     number = random.randint(0, 99)
     if is_prime(number):
         answer = 'yes'

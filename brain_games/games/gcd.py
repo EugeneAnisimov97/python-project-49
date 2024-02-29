@@ -15,7 +15,7 @@ def search_gcd(number_first, number_second):
 
 
 def get_answer_question():
-    '''Возвращаем значение для вопроса и ответ на вопрос'''
+    '''Возврат значения для ответа на вопрос'''
     number_first = random.randint(1, 20)
     number_second = random.randint(1, 20)
     return f'{number_first} {number_second}', str(search_gcd(number_first, number_second))  # noqa:E501

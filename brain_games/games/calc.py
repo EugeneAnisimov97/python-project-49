@@ -5,7 +5,7 @@ ABOUT_GAME = 'What is the result of the expression?'
 
 
 def count_expression(number_first, number_second, expression):
-    '''Вычисляем ответ выражения'''
+    '''Вычисление ответа на выражение'''
     if expression == '+':
         answer = number_first + number_second
     if expression == '-':
@@ -16,7 +16,7 @@ def count_expression(number_first, number_second, expression):
 
 
 def get_answer_question():
-    '''Возвращаем значение для вопроса и ответ на вопрос'''
+    '''Возврат значения для ответа на вопрос'''
     number_first = random.randint(1, 10)
     number_second = random.randint(1, 10)
     expression = ['-', '+', '*']

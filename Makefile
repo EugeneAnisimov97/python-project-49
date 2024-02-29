@@ -2,7 +2,7 @@
 install:  
 	poetry install 
 
-# Создавание dist  с файлами для устанвки пакета
+# Создание dist с файлами для устанвки пакета
 build:
 	poetry build
 
@@ -10,7 +10,7 @@ build:
 publish:
 	poetry publish --dry-run
 
-# Установка пакета в интерпретатор python на локальном компе (мой)
+# Установка пакета в интерпретатор python на локальном пк
 package-install:
 	python3 -m pip install dist/*.whl --force-reinstall
 

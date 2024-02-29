@@ -5,7 +5,7 @@ ABOUT_GAME = 'What number is missing in the progression?'
 
 
 def criating_progression():
-    '''Создаем массив с шагом step и сортируем его по возрастанию'''
+    '''Создание массив с шагом step и сортировка его по возрастанию'''
     progression = []
     number = random.randrange(0, 100)
     step = random.randrange(1, 10)
@@ -16,7 +16,7 @@ def criating_progression():
 
 
 def get_answer_question():
-    '''Возвращаем значение для вопроса и ответ на вопрос'''
+    '''Возврат значения для ответа на вопрос'''
     invisible = '..'
     string_progression = ''
     progression = criating_progression()

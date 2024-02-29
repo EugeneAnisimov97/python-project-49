@@ -13,7 +13,6 @@ def start_game(game):
         user_answer = prompt.string('Your answer: ')
         if user_answer == correct_answer:
             print('Correct!')
-            point += 1
         else:
             print(f"'{user_answer}' in wrong answer ;(. Corrent answer was '{correct_answer}'.\nLet's try again, {name}!")  # noqa:E501
             return
