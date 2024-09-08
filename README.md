@@ -66,7 +66,9 @@ brain-progression
 
 <h1 align="center">brain-prime<a href="https://asciinema.org/a/2xbz7CJjQX9pyxJgWpq9krRGk" target="_blank"><img src="https://asciinema.org/a/2xbz7CJjQX9pyxJgWpq9krRGk.svg" /></a></h1>
 ***
+
 ## Контакты
+
 - Автор: Eugene Anisimov
 - [GitHub](https://github.com/EugeneAnisimov97)
 - [Email](zero0061@mail.ru)
