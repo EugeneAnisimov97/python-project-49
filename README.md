@@ -65,8 +65,8 @@ brain-progression
 <h1 align="center">brain-progression<a href="https://asciinema.org/a/MyxLIwlW0N2krC3181lGure3f" target="_blank"><img src="https://asciinema.org/a/MyxLIwlW0N2krC3181lGure3f.svg" /></a></h1>
 
 <h1 align="center">brain-prime<a href="https://asciinema.org/a/2xbz7CJjQX9pyxJgWpq9krRGk" target="_blank"><img src="https://asciinema.org/a/2xbz7CJjQX9pyxJgWpq9krRGk.svg" /></a></h1>
-***
 
+***
 ## Контакты
 
 - Автор: Eugene Anisimov
